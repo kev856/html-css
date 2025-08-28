@@ -1,0 +1,5 @@
+Extensiones necesarias
+-prettier - code formatter ---- Nos ayuda a identar el código
+-indent rainbow --- Este para aprender a indentar el código
+-image preview --- cuando se coloca el mouse sobre la ruta de imagen, poder ver la imagen que se está enlazando
+-Live server --- crea un servidor local, asi se puede ver los cambios en tiempo real

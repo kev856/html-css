@@ -1,0 +1,7 @@
+-Se escribe index porque ese es el archivo que buscan los servidores
+-Para que el texto en vs code se adapte a la resolución, escribir: ctrl + shift + p y allí escribir word wrap
+- los h1 a h6 son encabezados
+
+Sitio web:
+Conjuntos de página web
+
