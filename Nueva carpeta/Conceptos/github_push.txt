@@ -1,0 +1,47 @@
+-Descargar e instalar git
+-Entrar en git hub
+-crear nuevo repositorio
+Se coloca un nombre y si es nuevo en esto es mejor dejarlo en público
+-Se crea el repositorio y en la nueva página que se carga, se copia la sexta línea, es algo sobre git remote
+-En vsc crear una nueva terminal
+-Escribir git init
+-Si sale error puede que no esté git en path, para saberlo se escribe git --version, debe salir git verion no se qué,
+si sale el mismo error es porque no está en path
+-Para agregar git al path: 
+Buscar la carpeta donde está git, normalmente está en estas rutas:
+C:\Program Files\Git\bin
+
+C:\Program Files\Git\cmd
+
+dentro de esa carpeta deberia estar un archivo git.exe
+Pulsa Win + R, escribe sysdm.cpl y presiona Enter.
+
+Ve a la pestaña Opciones avanzadas y haz clic en Variables de entorno.
+
+En la parte de abajo (Variables del sistema), busca y selecciona Path, luego clic en Editar.
+
+Pulsa Nuevo y pega la ruta donde está git.exe (por ejemplo: C:\Program Files\Git\cmd).
+
+Acepta todo y cierra las ventanas.
+se reinicia el pc para asegurar los cambios
+
+-Si ya está todo bien, Se pega la línea que se copió
+
+-escribir git status, los archivos que salen rojo no están siendo traqueados
+
+-Se escribe git add . para agregar todos los archivos
+-Se escribe git add nombre del archivo para hacerlo manualmente
+-Se vuelve a colocar git status para corroborar que esten todos los archivos
+-Lo siguiente es escribir git commit -m "Aquí se escribe un mensaje descriptivo"
+- Si sale un mensaje como este -Please tell me who you are. Run git config --global user.email "you@example.com" git config --global user.name "Your Name" to set your account's default identity. Omit --global to set the identity only in this repository
+-pasa es que Git necesita saber quién eres para poder registrar tus cambios (commits) con tu nombre y tu correo.
+Tienes que configurar tu identidad con estos comandos (reemplaza con tus datos reales):
+git config --global user.name "Tu Nombre"
+git config --global user.email "tucorreo@ejemplo.com"
+Para verificar qué valores tienes configurados actualmente, puedes usar:
+git config --global --list
+-Ahora se vuelve a usar el git commit -m "Aquí se escribe un mensaje descriptivo"
+-Se vuelve a hacer un git status
+-Si todo está bien, se hace un git push, si sale un error, es porque es la primera vez que se hace un push a ese repositorio
+-solo se copia una linea que sale en el mensaje de error, dice git push y termina en origin master, se pega y sa presiona enter y ya
+-Para volver a hacer git push, se hace el git push, se añaden los archivos con git add, despues un git commit y al final un git push

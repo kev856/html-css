@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios</title>
+    <title>Document</title>
 </head>
 <body>
-    
+    <form><!--etiqueta para formularios-->
+        <input type="password" required> <!--Required es para que este campo sea obligatorio, osea que no se pueda mandar el formulario si el campo está vacio-->
+        <input type="email" minlength="20" ><!--minlenght es el minimo de caracteres en el campo    -->
+        <input type="text" name="username" placeholder="nombre usuario"><!--el name es un identificador de inputs para el servidor, el placeholder da un ejemplo de lo que se tiene que escribir-->
+        <input type="checkbox">
+        <input type="radio">
+        <input type="date">
+        <input type="file">
+        <input type="submit">
+    </form>
 </body>
 </html>
