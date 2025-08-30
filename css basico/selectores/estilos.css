@@ -1,0 +1,19 @@
+p{ /*el p es un selector, selecciona todos los p*/
+    color: red; /*Lo que está dentro de los corchetes se llaman bloque de declaraciones*/
+}
+
+nuevoelemento{ /*el selector lo que hace es buscar los elementos html que se llamen así*/
+    color: red;
+}
+
+span{
+    color: red;
+}
+
+.ingrediente-faltante{ /*Hay que poner punto al principio para seleccionar clases*/
+    color: red;
+}
+
+#ingrediente-secreto{/* con el # se selecciona los id*/
+    color: blue;
+}

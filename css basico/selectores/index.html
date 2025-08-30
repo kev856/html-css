@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores </title>
+    <link rel="stylesheet" href="estilos.css"><!--Asi es como deberia colocarse css-->
+</head>
+<body>
+    <h1>Título</h1>
+    <p style="color:red; font-size: 20px;">Lorem ipsum dolor sit amet 
+        consectetur adipisicing elit. Dolorem mollitia quam numquam laudantium consequuntur. Sit veritatis dolores ab quae aut quaerat omnis! Earum explicabo quibusdam blanditiis fugit voluptates magni quidem.
+    </p><!--Haciendo ese style se coloca el párrafo en rojo, con font size se cambia el tamaño de la letra, esto se llama estilos en linea, porque se escribe en la misma linea, mejor no usar css así-->
+
+    <style>/* Tambien se puede usar style como etiqueta, aunque tampoco está bien usarlo así*/
+        p{
+            color: red;
+        }
+
+        h1{
+            color: blue;
+        }
+    </style>
+
+    <nuevoelemento>sdsadsadsa</nuevoelemento><!--este es un elemento que creé, esto no se hace -->
+
+
+    <h1>Ingredientes</h1>
+    <ul>
+        <li><span>Harina</span></li><!--span es para seleccionar algo muy especifico o puntual-->
+        <li class="ingrediente-faltante">Aceite</li><!--el class se usa para seleccionar todos los elementos que le coloquemos ese class-->
+        <li id="ingrediente-secreto">Leche</li><!--los id se usan para seleccionar un elemento en toda la página, se puede usar igual que class, pero es mejor no hacerlo, osea no deben tener el mismo id-->
+        <li class="ingrediente-faltante">Sal</li>
+    </ul>
+</body>
+</html>
