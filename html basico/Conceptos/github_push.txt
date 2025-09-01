@@ -25,7 +25,8 @@ Pulsa Nuevo y pega la ruta donde está git.exe (por ejemplo: C:\Program Files\Gi
 Acepta todo y cierra las ventanas.
 se reinicia el pc para asegurar los cambios
 
--Si ya está todo bien, Se pega la línea que se copió
+-Si ya está todo bien, Se pega la línea que se copió, la cual es git remote add origin y al lado la url del repositorio en github
+-para comprobar que el remoto se agregó escribir git remote -v
 
 -escribir git status, los archivos que salen rojo no están siendo traqueados
 

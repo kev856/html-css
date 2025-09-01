@@ -1,0 +1,37 @@
+body{
+    margin: 0;/* El body viene con un margin por defecto, se le da 0 para que no tenga margin*/
+}
+
+
+
+.formulario{
+    background: red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 0px;/*Tambien se puede hacer así padding: 20px 0 40px 20px; esto es arriba, derecha, abajo, izquierda respectivamente.
+    Otra forma de hacerlo es padding: 20px 30px; así se da el padding de 20px para arriba y abajo y 30 pixeles para derecha e izquierda.
+    padding: 10px; Así se da padding en todas las direcciones, padding es el espacio entre el contenido y los bordes del contenedor, es como un relleno*/
+}
+
+.formulario_input{
+    padding: 9px 12px;
+    width: 90%;
+    background: black;
+    color: red;
+}
+
+.formulario_submit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: red;
+    width: 50%;
+    color: white;
+}
+
+.box{
+    background: blue;
+    height: 150px;
+    width: 150px;
+    margin: 10px;/*Este es el espacio entre elementos, si hay un elemento con un margin bottom y otro que está debajo con margin top, se coloca el margin mas grande osea si uno tiene top 15px y otro bottom 10, habrá 15px de diferencia, esto deja de ocurrir cuando se usa la propiedad display: flex, aqui sí se suman los margenes*/
+}

@@ -7,3 +7,11 @@ div{
 h1{
     background: blue;
 }
+
+input{
+    width: 100%;/*El ancho será del 100% del elemento que lo contiene, el input submit no está igual que los otros dos porque tiene una propiedad que se llama border-box*/
+}
+
+form{
+    width: 300px;
+}

@@ -1,0 +1,47 @@
+/*Hay 4 propiedades para los bordes
+    border-width
+    border-style
+    border-color
+    border-radius*/
+    div{
+        background-color: red;
+        width: 200px;
+        margin: auto;
+        text-align: center;
+        border-width:5px;/*para que muestre el borde, siempre debe estar estos 3 atributos, width, color y style*/
+        border-color: blue;
+        border-style: solid;/*Normalmente solo se usa el valor solid*/
+        border-radius: 15px;/*Redondear bordes, si se redondea usando porcentajes en vez de pixeles, se va a ver un poco diferente*/
+        /*Con la propiedad border se puede reemplazar todas las demás, se usa así border: 3px solid black; width style y color respectivamente, así es como se debe de usar.
+        
+        existe:
+        border-top: 5px solid blue;
+        border-right
+        border-bottom
+        border-left
+        border-top-left-radius:20px;
+        border-top-right-radius
+        border-bottom-left-radius
+        border-bottom-right
+        
+        
+        el border radius tambien se usa así
+        border-radius: 10px 50px; así se le da 10px al borde de arriba a la izquierda y el de abajo a la derecha y 50px a los dos que faltan
+        
+        border-radius; 10px 50 px 0 20px; arriba, derecha, abajo e izquierda*/
+
+    }
+
+    body{
+        background-color: black;
+    }
+    
+    input{
+        margin: 5px;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid greenyellow;
+        color: greenyellow;
+        padding: 6px 9px;
+        border-radius: 3px;
+    }
