@@ -1,0 +1,9 @@
+div{
+    background: red;/*Si no se le da un ancho y alto, no se muestra el color de fondo*/
+    width: 300px;/*Ancho*/
+    height: 100px;/*Alto de la caja*/
+}
+
+h1{
+    background: blue;
+}

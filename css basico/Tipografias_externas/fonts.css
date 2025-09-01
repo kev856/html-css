@@ -1,0 +1,14 @@
+@font-face { /*Esto es para colocar fuentes externas pero en vez de usar link, se utiliza de forma local, siempre se coloca en una página que se llame fonts.css*/
+    font-family: "dalto";/*Este es el nombre de la tipografia, le podemos colocar el que uno quiera, mejor colocarle el nombre que corresponde, para usarlo solo es colocar en css font-family: dalto;*/
+    src: url(fonts/static/Montserrat-Regular.ttf)/*Aqui se escribe la dirección donde está guardado el archivo de la fuente*/ format("truetype");/*Esto es para que el navegador sepa el tipo de formato, para que lo cargue más rapido, también para que los navegadores no compatibles puedan mostrar la tipografia */
+    font-weight: 400;/*Con esto cuando se usa dalto, se usa la tipografia con el ancho de 400*/
+}
+
+@font-face {
+    font-family: "dalto" ;
+    src: url(fonts/static/Montserrat-Black.ttf) format("truetype");
+    font-weight: 900;
+}/*Así coloco la misma fuente pero en negrita, si en el css escribo 900 se colocará, si escribo 800 tambien porque está cerca de 900,
+si escribo 500 se va a colocar el de 400 porque está mas cerca del 400 que del 900*/
+
+/*Puedo configurar cuantas fuentes quiera*/
