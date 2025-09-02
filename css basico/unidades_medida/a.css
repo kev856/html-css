@@ -1,0 +1,39 @@
+div{
+    background-color: #ededed;
+    padding: 20px;
+    border-left: 5px solid #999;
+    font-family: sans-serif;
+}
+
+h1{
+    margin-top: 0;
+    font-size: 24px;
+}
+
+span{
+    font-size: 16px;
+    color: #999;
+    font-weight: 100;
+}
+
+p{
+    color: #555;
+}
+
+/*Se puede usar en vez de pixeles, cm, in(Pulgadas) y mm aunque en la pantalla no se vea de esas medidas, cuando se imprima sí tendrá esas medidas*/
+/*Al colocar porcentajes al font-size se coloca el tamaño respecto a font-size de la caja que lo contiene*/
+
+/*Los prcentajes funcionan respecto a su contenedor*/
+
+/*se puede usar font-size: 1.25em; un em es igual al font size de la caja que lo contiene si se coloca 2em eso se multiplica por elfont size del elemento padre, si no está definifo un font-size en elemento padre,buscará en el siguiente elemento que contiene a su contenedor, si tampoco tiene seguirá igual, hasta encontar un font-size, si no encuentra ninguno colocará el que trae el navegador, que por defecto es 16px*/
+
+/*font-size: 1rem; rem es como em pero en vez de buscar al elemnto padre, busca al elemento raiz que es html, si en css coloco html{ font-size: 30px; } eso valdría 1rem*/
+
+/*height:50vh; vh es viewport hight, eso es para que tenga el tamaño respecto a la ventana, tambien se usa en width, width: 50vw;*/
+
+/*Se puede tener una caja centrada con
+width:80vw;
+height:80vh;
+margin-top:10vh;
+
+*/

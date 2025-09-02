@@ -1,0 +1,1 @@
+Para que siempre esté el word wrap activado se hace ctrl+shift+p y se elige open user settings (JSON)

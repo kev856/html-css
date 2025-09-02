@@ -4,18 +4,18 @@ p{
     /*fotn family para cambiar la tipografia,
     si la tipografia lleva dos nombres hay que colocarlo en comillas simples, amenos que ya lleve un guion medio, tambien se pueden colocar con comas osea: sans-serif,tahoma,arial, por si algún motivo el navegador no encuentra la primer tipografia use la siguiente, y así*/
     font-size: 16px; /*Para el tamaño de la letra, por defectola mayoría siempre es 16px*/
-font-weight:bold;/*El ancho de la letra, así se coloca en negrita. para resaltar una palabra en especifico en el texto, no se usa eltag b sino strong, mejora el seo*/
-/*tambien se puede usar font-weight: 100 las tipografias tienen un tamaño que se las coloca su creador, van del 100 al 900 de cien cien, solo se puede cambiar el ancho de la tipografia si el creador definió los anchos, puede que hay definido 500 y 600, un solo tamaño o todos*/
-/*bold es lo mismo que usar 700, y la priedad bolder hace que la tipografia vaya alsiguiente ancho, si la tipografia por defecto es 500, y se puede usar 600, bolder lo coloca en 600*/
-font-style: italic;/*Estilos de la letra, italic es cursiva, oblique un poco menos cursiva, siempre y cuando la tipografia tenga esas opciones, el valor por defecto es normal*/
-text-align: left;/*Para alinear el texto*/
-/*left,right,center,start(Esto coloca el texto al primcipio como si fuera left, pero en paises como arabia saudita se pondria a la derecha porque allá se comienza por la derecha),end(Lo mismo que start pero alreves),justify(Hace que todas las lineas del parrafo lleguen las final del contenedor)*/
-text-decoration: underline;/*Decorar texto*/
-/*overline,line-through, se pueden colocar dos o mas, una del lado de otra sin comas ni nada, el valor none es nada*/
-line-height: normal;/*Este es el espaco entre linea y linea*/
-/*1, 2, 3, 3.5, 10%, etc*/
-letter-spacing: normal;/*Cuan separadas están las letras entre sí*/
-/*10px*/
-text-transform: none;
-/*uppercase(todo en mayúscula)lowercase(Todo en minúscula) capitalize(Convierte la primera letra de cada palabra en mayúscula)*/
+    font-weight:bold;/*El ancho de la letra, así se coloca en negrita. para resaltar una palabra en especifico en el texto, no se usa eltag b sino strong, mejora el seo*/
+    /*tambien se puede usar font-weight: 100 las tipografias    tienen un tamaño que se las coloca su creador, van del 100 al  900 de cien cien, solo se puede cambiar el ancho de la   tipografia si el creador definió los anchos, puede que hay    definido 500 y 600, un solo tamaño o todos*/
+    /*bold es lo mismo que usar 700, y la priedad bolder hace que   la tipografia vaya alsiguiente ancho, si la tipografia por    defecto es 500, y se puede usar 600, bolder lo coloca en 600*/
+    font-style: italic;/*Estilos de la letra, italic es cursiva,    oblique un poco menos cursiva, siempre y cuando la tipografia  tenga esas opciones, el valor por defecto es normal*/
+    text-align: left;/*Para alinear el texto*/
+    /*left,right,center,start(Esto coloca el texto al primcipio     como si fuera left, pero en paises como arabia saudita se   pondria a la derecha porque allá se comienza por la derecha), end(Lo mismo que start pero alreves),justify(Hace que todas  las lineas del parrafo lleguen las final del contenedor)*/
+    text-decoration: underline;/*Decorar texto*/
+    /*overline,line-through, se pueden colocar dos o mas, una del   lado de otra sin comas ni nada, el valor none es nada*/
+    line-height: normal;/*Este es el espaco entre linea y linea*/
+    /*1, 2, 3, 3.5, 10%, etc*/
+    letter-spacing: normal;/*Cuan separadas están las letras entre sí*/
+    /*10px*/
+    text-transform: none;
+    /*uppercase(todo en mayúscula)lowercase(Todo en minúscula) capitalize(Convierte la primera letra de cada palabra en mayúscula)*/
 }

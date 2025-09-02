@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(56, 150, 226);
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.box{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    background-color: #000;
+    background-image: url("https://cdn.shopify.com/s/files/1/2592/7448/files/2024-nissan-gt-r-tanitildi-iste-tasarimi-ve-ozellikleri-7952-18_1024x1024.jpg?v=1693924348");
+    background-size: auto;
+    background-attachment: fixed;/*Bonito efecto de la imagen cuando se escrollea*/
+}
+
+.opaco{ /*así se le da como un poco de sombra por encima de la imagen*/
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+}
+
+h2{
+    padding: 20px;
+    text-align: center;
+}

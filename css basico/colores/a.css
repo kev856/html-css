@@ -8,5 +8,6 @@
     son rojo, verde, azul igial que el rgb, se puede abreviar #a22 sería como
     si se escribiera #aa2222, se puede colocar opacidad #a22a el último valor
     es la opacidad que va de 0 a la f*/
+    /*Se puede usar hsl(180, 100%, 50%); color; saturación y luz*/
     margin: 20px;
 }

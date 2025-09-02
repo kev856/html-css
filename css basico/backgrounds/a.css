@@ -1,0 +1,22 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: #000;
+    background-image: url("https://cdn.shopify.com/s/files/1/2592/7448/files/2024-nissan-gt-r-tanitildi-iste-tasarimi-ve-ozellikleri-7952-18_1024x1024.jpg?v=1693924348");
+    background-size: auto;/*Es el valor por defecto de la imagen de fondo*/
+    /*En ves de 100% se puede usar 100% para que se ajuste en encho a la caja, tambien se puede usar pixeles*/
+    /*background-size: contain; hace que la imagen entre almenos una vez dentro de la caja*/
+    /*background-size: cover; hace que la imagen se adapte y complete todo el tamaño del contenedor, puede que se recorte al hacerlo*/
+    /*Si la imagen se recorta se usa background-position con valores de left right top bottom y center en ves de esos valores se puede usar pixeles, ej:
+    background-position: 100 px 100px; el primer valor es hacia la derecha y el otro hacia arriba, se le puede dar valores negativos
+    ej: 
+    background-position: 100px top;
+    si está background-size: contain y la imagen se repite se puede usar background-repeat: no-repeat; y si hay un color de fondo de puede hacer background-color: transparent;
+    se puede dar valor en el size por ej 40 px, y en el repeat colocar repeat -x o repeat -y    
+    */
+
+    /*Para resumir todos los background se hace así
+    background: url("") position / size repeat attachment color 
+    background: url("https://cdn.shopify.com/s/files/1/2592/7448/files/2024-nissan-gt-r-tanitildi-iste-tasarimi-ve-ozellikleri-7952-18_1024x1024.jpg?v=1693924348") top / cover fixed #6fa; */
+}
