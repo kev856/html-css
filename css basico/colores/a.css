@@ -1,0 +1,12 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 255);/*Van del cero al 255 y la opacidad que es a va del 0 al 1, pudiendo usar 0.1, 0.2 y así*/
+    /*rgba(255,255,0,0.8); se puede usar la página rgba picker*/
+    /*Para colores hexadecimale, 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+    se escribe así #11aeff los se dividen de dos en dos, los dos primeros
+    son rojo, verde, azul igial que el rgb, se puede abreviar #a22 sería como
+    si se escribiera #aa2222, se puede colocar opacidad #a22a el último valor
+    es la opacidad que va de 0 a la f*/
+    margin: 20px;
+}
