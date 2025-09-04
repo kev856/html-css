@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="estilos.css">
+<title>Label</title>
+</head>
+<body>
+<form> 
+        <h2>Formulario de contacto</h2>
+        <div class="form_input">
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" placeholder="John doe">
+        </div>
+        <div class="form_input">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="ejemplo@gmail.com">
+        </div>
+        <div class="form_input">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" rows="5" readonly disabled maxlength="140" placeholder="Dejá tu mensaje"></textarea><!--readonly es para que lo que esté dentro del elemento sea solo lectura y los usuarios no lo puedan modificar, con disabled, se desactiva el campo, y cuando se envie le formulario no se va a enviar los datos de ese campo, pero lo que escribamos con readonly, sí se va a enviar, maxlenght maximo de caracteres, si hay un espacio entre las etquetas de texare, no se verá el placeholder,rows maximo de lineas que se puede escribir en el textarea-->
+        </div>
+</form>
+</body>
+</html>
