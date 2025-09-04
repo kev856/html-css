@@ -1,0 +1,3 @@
+Para saber si está el repositorio local actualizado git remote show origin
+master pushes to master (up to date) si sale esto, es porque sí está actualizado
+si en vez de local up to date dice local out of date es porque está desactualizado
