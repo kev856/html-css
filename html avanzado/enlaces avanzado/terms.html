@@ -25,7 +25,42 @@
     </style>
 </head>
 <body>
+<div class="container">
+        <div>
+                <a href="#buy-process">Envios y entregas</a>
+        </div>
+        <div>
+                <a href="#privacy-process">Politicas de privacidad</a> <!--Esto es para poder llevarte a una parte en especifico de la página-->
+        </div>   
+        <div>
+                <a href="mailto:duv0@gmail.com">Mandar un mail</a><!--Nos ayuda a mandar un email al correo que se escribe allí-->
+        </div>
+        <div>
+                <a href="tel:+573013911205">telefonooooo</a>
+                <!--Para colocar un número de telefono, solo se muestra en los celulares y en el pc solo si está asociado a una app de llamada como skype,zoom etc-->
+        </div>   
+        <div>
+                <a href="terms.html" download>Descargar terminos y condiciones</a><!--Para descargar la pagina que querramos-->
+        </div>
 
+        <div>
+            Terminos y condiciones generados en
+            <a href="https://bebita.com" target="BLANK" rel="NOREFERRER"> BEBITA.COM</a><!--Cuando abres un enlace con target="_blank", la página abierta puede acceder al objeto window.opener y potencialmente manipular la página original (por ejemplo, cambiar su ubicación con window.opener.location = ...), lo cual es un riesgo de seguridad.
+El valor noopener rompe esa relación:
+Evita que la nueva pestaña tenga acceso al objeto window.opener.
+Protege contra ataques como phishing o tabnabbing.
+✅ Ejemplo:
+
+<a href="https://ejemplo.com" target="_blank" rel="noopener">Ir a ejemplo</a>
+✅ Diferencia con noreferrer
+noopener: evita window.opener.
+noreferrer: además de lo anterior, no envía la cabecera HTTP Referer (no le dice al destino desde qué página llegaste)
+En los navegadores antiguos hay que colocar noopener y noreferer en los modernos solo noreferrer
+tambien se usa rel="nofollow" por ejemplo en los comentarios de mi página, para que otras personas cuando coloquen quizas el enlace de su pagina, no mejore su seo y no pueda dañar el mio
+rel="noopener noreferrer nofollow
+Si se coloco el enlace de mi pagina en un foro no relacionado por ejemplo si es de programacion en un foro de cocina, google lo puede ver como spam, si hago muchos enlaces artificiales google puede penalizarte"-->
+        </div>
+</div>
     <h1>Términos y Condiciones de Uso</h1>
     <p><strong>Última actualización:</strong> 5 de septiembre de 2025</p>
 
@@ -47,7 +82,7 @@
     </section>
 
     <section>
-        <h2>3. Productos y Precios</h2>
+        <h2 id="buy-process">3. Productos y Precios</h2>
         <ul>
             <li>Todos los productos están sujetos a disponibilidad.</li>
             <li>Los precios están expresados en [moneda local] e incluyen los impuestos aplicables, salvo que se indique lo contrario.</li>
@@ -72,7 +107,7 @@
     </section>
 
     <section>
-        <h2>6. Privacidad</h2>
+        <h2 id="privacy-process">6. Privacidad</h2>
         <p>
             Este sitio web <strong>no recopila ningún dato personal</strong> de los usuarios.
             No solicitamos registro, no utilizamos cookies con fines de seguimiento ni almacenamos información identificable.
