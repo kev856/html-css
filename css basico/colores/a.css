@@ -11,3 +11,22 @@
     /*Se puede usar hsl(180, 100%, 50%); color; saturación y luz*/
     margin: 20px;
 }
+
+/* | Color       | RGB                  |
+| ----------- | -------------------- |
+| Negro       | `rgb(0, 0, 0)`       |
+| Blanco      | `rgb(255, 255, 255)` |
+| Rojo        | `rgb(255, 0, 0)`     |
+| Verde       | `rgb(0, 255, 0)`     |
+| Azul        | `rgb(0, 0, 255)`     |
+| Amarillo    | `rgb(255, 255, 0)`   |
+| Cian        | `rgb(0, 255, 255)`   |
+| Magenta     | `rgb(255, 0, 255)`   |
+| Gris claro  | `rgb(200, 200, 200)` |
+| Gris medio  | `rgb(128, 128, 128)` |
+| Gris oscuro | `rgb(50, 50, 50)`    |
+| Naranja     | `rgb(255, 165, 0)`   |
+| Rosado      | `rgb(255, 192, 203)` |
+| Violeta     | `rgb(128, 0, 128)`   |
+| Marrón      | `rgb(139, 69, 19)`   |
+ */

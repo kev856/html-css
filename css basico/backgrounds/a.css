@@ -20,3 +20,20 @@
     background: url("") position / size repeat attachment color 
     background: url("https://cdn.shopify.com/s/files/1/2592/7448/files/2024-nissan-gt-r-tanitildi-iste-tasarimi-ve-ozellikleri-7952-18_1024x1024.jpg?v=1693924348") top / cover fixed #6fa; */
 }
+
+
+/*background-position acepta dos valores:
+
+El primero es horizontal → left, center, right
+
+El segundo es vertical → top, center, bottom
+
+Así que:
+
+left top → esquina superior izquierda.
+
+center top → centrada arriba.
+
+right bottom → esquina inferior derecha.
+
+Si solo pones un valor (ej: center), el otro se asume como center.  */
