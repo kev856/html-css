@@ -3,7 +3,7 @@ p{
     font-family: 'Lucida sans';
     /*fotn family para cambiar la tipografia,
     si la tipografia lleva dos nombres hay que colocarlo en comillas simples, amenos que ya lleve un guion medio, tambien se pueden colocar con comas osea: sans-serif,tahoma,arial, por si algún motivo el navegador no encuentra la primer tipografia use la siguiente, y así*/
-    font-size: 16px; /*Para el tamaño de la letra, por defectola mayoría siempre es 16px*/
+    font-size: 16px; /*Para el tamaño de la letra, por defecto la mayoría siempre es 16px*/
     font-weight:bold;/*El ancho de la letra, así se coloca en negrita. para resaltar una palabra en especifico en el texto, no se usa eltag b sino strong, mejora el seo*/
     /*tambien se puede usar font-weight: 100 las tipografias    tienen un tamaño que se las coloca su creador, van del 100 al  900 de cien cien, solo se puede cambiar el ancho de la   tipografia si el creador definió los anchos, puede que hay    definido 500 y 600, un solo tamaño o todos*/
     /*bold es lo mismo que usar 700, y la priedad bolder hace que   la tipografia vaya alsiguiente ancho, si la tipografia por    defecto es 500, y se puede usar 600, bolder lo coloca en 600*/

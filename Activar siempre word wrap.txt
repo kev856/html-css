@@ -1,0 +1,13 @@
+Escribir ctrl+shift+p word wrap
+
+-----------------------------------
+
+Editar el settings.json
+
+Abre la paleta de comandos (Ctrl + Shift + P).
+
+Escribe Preferences: Open User Settings (JSON).
+
+Agrega esta línea dentro del objeto {}:
+
+"editor.wordWrap": "on"

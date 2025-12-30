@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gap vs Space-between</title>
+  <style>
+    body {
+      background: #222;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      gap: 40px; /* separación entre ejemplos */
+      padding: 20px;
+    }
+
+    .contenedor {
+      display: flex;
+      background: #444;
+      padding: 10px;
+    }
+
+    .contenedor div {
+      width: 80px;
+      height: 80px;
+      background: #ff5722;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    /* Ejemplo con gap */
+    .gap {
+      gap: 20px;
+      justify-content: flex-start; /* se alinean a la izquierda */
+    }
+
+    /* Ejemplo con space-between */
+    .space-between {
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <h2>Ejemplo con <code>gap</code></h2>
+  <div class="contenedor gap">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+
+  <h2>Ejemplo con <code>space-between</code></h2>
+  <div class="contenedor space-between">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+  </div>
+</body>
+</html>
