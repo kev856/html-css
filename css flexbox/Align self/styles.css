@@ -1,0 +1,8 @@
+/* Esta propiedad solo funciona cuando se usa align-items */
+/* Es igual que align-items pero este se usa en un solo elemento */
+.item-5{
+    align-self: start;
+    align-self: baseline;
+    align-self: stretch;
+    align-self: end;
+}

@@ -41,7 +41,7 @@ input, textarea{ /*Así se le da los mismos estilos a dos elementos*/
 }
 
 textarea{
-                min-width: 100%;
+                min-width: 100%;/*Cambiar el tamaño del text area*/
                 resize: vertical;/*Esto es para que el textarea solo se mueva de manera horizontal, si quisieramos que no se mueva, el valor sería none*/
                 min-height: 100px;
                 max-height: 200px;

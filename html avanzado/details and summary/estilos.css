@@ -20,14 +20,20 @@ summary{
     font-size: 1em;
     color: #eee;
 }
-/*Se puede dar color a summary por separado
+/* Se puede dar color a summary por separado */
 details{
         background-color: #999;
 }
 
 summary{
     background-color: blue;
-}*/
+}
+    details[open]{
+border:1px solid #ddd;
+background-color: transparent;
+font-weight: bold;
+    }
+
 
 ul{
         font-weight: 100;

@@ -1,0 +1,306 @@
+                                Comentarios, metatags y favicons
+Para poder escribir un comentaio en html se hace así <!-- -->
+<link rel="icon" href="icono.png" type="image/png"><!--esto es para colocar la ruta de los iconos, por lo general se colocan imagenes de 32x32 pixeles o 64x64, para que la página cargue más rapido, se puede colocar imagenes con la extension .ico y por motivos de compatibilidad se escribe lo del type-->
+
+<meta name="description" content="Esto es para describir la página">
+    <meta name="keywords" content="frutas, fruta, banana, manzana, 1kg de papa"><!--palabras clave de la página-->
+    <meta name="author" content="Kevin Marriaga">
+    <meta name="robots" content="nofollow"><!--robots es para que solo los motores de busqueda lean y sepan que hacer--><!--no follow es para que no se muestre mi pagina en los resultados de búsqueda-->
+    <meta name="robots" content="nosnippet"><!--para que no se muestre solo un fragmento de la página web como pasa al principio de algunas busquedas-->
+    <meta name="robots" content="noarchive"><!--para que el navegador no pueda almacenar una copia de la pagina web en cache, esto se usa en paginas que es están en constantes actualizaciones-->
+    <meta name="robots" content="noimageindex">
+    <meta name="OG:TITLE" content="">
+    <meta name="OG:IMAGE" content="">
+    <meta name="OG:DESCRIPTION" content="">
+    <title>metadatos e iconos</title>
+    <!--Para ver y hacer como se previsualiza los links en distintas páginas, buscar metatags.io-->
+
+                                textarea
+input, textarea{ /*Así se le da los mismos estilos a dos elementos*/
+        width: 100%;
+        box-sizing: border-box;
+        padding: 6px 12px;
+        border: none;
+        border-left: 3px solid #999;
+        box-shadow: 0px 0px 55px #0003;
+        background-color: transparent;
+        color: #eee;
+}
+
+min-width: 100%;/*Cambiar el tamaño del text area*/
+
+resize: vertical;/*Esto es para que el textarea solo se mueva de manera horizontal, si quisieramos que no se mueva, el valor sería none*/
+                min-height: 100px;
+                max-height: 200px;
+
+<div class="form_input">
+                <textarea rows="5" readonly disabled maxlength="140" placeholder="Deja tu mensaje"></textarea><!--readonly es para que lo que esté dentro del elemento sea solo lectura y los usuarios no lo puedan modificar, con disabled, se desactiva el campo, y cuando se envie le formulario no se va a enviar los datos de ese campo, pero lo que escribamos con readonly, sí se va a enviar, maxlenght maximo de caracteres, si hay un espacio entre las etquetas de texare, no se verá el placeholder,rows maximo de lineas que se puede escribir en el textarea-->
+        </div>
+
+                                labels
+<label for="email">Email</label>
+                <input type="email" id="email" placeholder="ejemplo@gmail.com">
+el id y el for deben ser iguales para que cuando se de click al label, haga focus en el input, tambien se puede hacer así:
+<label>Nombre completo <input type="text" placeholder="John Doe"> </label>
+
+                        Select, datalist y option
+<label>Tipo de usuario
+                                <select name="type_of_user">
+                                <option value="user1">Seguidor/a</option>
+                                <option value="user2">Empresa</option>
+                                <option value="user3">Otros</option>
+                </select>
+                </label><!--Lo que el servidor va a recibir es lo que está dentro del value-->
+
+<label>Referente
+                                <input list="referente" name="referente">
+                                <datalist id="referente" name="type_of_user">
+                                <option value="Soy Dalto">Un youtuber</option>
+                                <option value="Una empresa"></option>
+                                <option value="Un amigo"></option>
+                                </datalist><!--Se puede escribir en los option sin value y cuando se envie el formulario, se reemplazará el value por lo que tenga escrito dentro <option>Soy Dalto</option>, se puede usar las dos al tiempo, value normalmente y el contenido como descripción, ej: <option value="Soy Dalto">Un creador de contenido</option>-->
+                </label>
+
+                        Fieldset and legend
+<form action="">
+        <fieldset>
+                <legend>Información básica</legend>
+                <input type="text" placeholder="nombre">
+                <input type="text" placeholder="apellido">
+                <input type="number" placeholder="edad">
+        </fieldset>
+        <fieldset>
+                <legend>Información de contacto</legend>
+                <input type="email" placeholder="email">
+                <input type="number" placeholder="telefono">
+        </fieldset>
+        </form>
+
+                        Details and summary 
+<details>
+    <summary>¿Que tengo que traer?</summary>
+    <ul>
+        <li>Tu laptop</li>
+        <li>Tus ganas de codear</li>
+    </ul>
+</details>
+<details>
+    <summary>¿Tengo que ser mayor de edad?</summary>
+    Sí, tienes que ser mayor de edad o de lo contrario estar acompañado de un adulto
+</details>
+details{
+        background-color: transparent;
+        border: 1px solid #ddd;
+        padding: 9px;
+        font-size: 0.8em;
+        color: #aaa;
+}
+
+
+summary{
+    background-color: transparent;
+    padding: 9px;
+    font-size: 1em;
+    color: #eee;
+}
+/*Se puede dar color a summary por separado
+details{
+        background-color: #999;
+}
+
+summary{
+    background-color: blue;
+
+    details[open]{
+border:1px solid #ddd;
+font-weight: bold;
+    }
+}*/
+
+ul{
+        font-weight: 100;
+}
+
+                        Enlaces avanzados
+<div class="container">
+        <div>
+                <a href="#buy-process">Envios y entregas</a>
+        </div>
+        <h2 id="buy-process">3. Productos y Precios</h2>
+        <!-- Para navegar en la misma página a una sección específica, se usa id, osea decidir a que elemento ir -->
+
+ <div>
+                <a href="terms.html" download>Descargar terminos y condiciones</a><!--Para descargar la pagina que querramos-->
+        </div>
+
+        <div>
+            Terminos y condiciones generados en
+            <a href="https://bebita.com" target="BLANK" rel="NOREFERRER"> BEBITA.COM</a><!--Cuando abres un enlace con target="_blank", la página abierta puede acceder al objeto window.opener y potencialmente manipular la página original (por ejemplo, cambiar su ubicación con window.opener.location = ...), lo cual es un riesgo de seguridad.
+El valor noopener rompe esa relación:
+Evita que la nueva pestaña tenga acceso al objeto window.opener.
+Protege contra ataques como phishing o tabnabbing.
+✅ Ejemplo:
+
+<a href="https://ejemplo.com" target="_blank" rel="noopener">Ir a ejemplo</a>
+✅ Diferencia con noreferrer
+noopener: evita window.opener.
+noreferrer: además de lo anterior, no envía la cabecera HTTP Referer (no le dice al destino desde qué página llegaste)
+En los navegadores antiguos hay que colocar noopener y noreferer en los modernos solo noreferrer
+tambien se usa rel="nofollow" por ejemplo en los comentarios de mi página, para que otras personas cuando coloquen quizas el enlace de su pagina, no mejore su seo y no pueda dañar el mio
+rel="noopener noreferrer nofollow
+Si se coloco el enlace de mi pagina en un foro no relacionado por ejemplo si es de programacion en un foro de cocina, google lo puede ver como spam, si hago muchos enlaces artificiales google puede penalizarte"-->
+        </div>
+
+        <div>
+                <a href="mailto:duv0@gmail.com">Mandar un mail</a><!--Nos ayuda a mandar un email al correo que se escribe allí-->
+        </div>
+
+        <div>
+                <a href="tel:+573013911205">telefonooooo</a>
+                <!--Para colocar un número de telefono, solo se muestra en los celulares y en el pc solo si está asociado a una app de llamada como skype,zoom etc-->
+        </div>   
+
+                        Tablas
+<!-- Tag para tablas  -->
+<table>
+<!--Arma una fila-->
+                <tr>
+                        <th>PRODUCTO</th>
+                        <th>COSTO</th>
+                        <th>UNIDADES</th>
+                </tr>
+<!--Define celdas para las filas-->
+                        <td>Dato 1</td>
+<!-- Para que ocupe dos celdas  -->
+                        <td class="dato_total" colspan="2">9</td>
+                        <!-- Encabezado de la tabla -->
+        <thead>
+                <!--Arma una fila-->
+                <tr>
+                <!-- Encabezados de una columna -->
+                        <th>PRODUCTO</th>
+                        <th>COSTO</th>
+                        <th>UNIDADES</th>
+                </tr>
+        </thead>
+<!-- Datos de la tabla -->
+        <tbody>
+                <tr>
+                        <!--Define celdas para las filas-->
+                        <td>Dato 1</td>
+                        <td>Dato 2</td>
+                        <td>Dato 3</td>
+                </tr>
+                <tr>
+                        <td>Dato 1 </td>
+                        <td>Dato 2  </td>
+                        <td>Dato 3 </td> 
+                </tr>
+                <tr>
+                        <td>Dato 1 </td>
+                        <td>Dato 2  </td> 
+                        <td>Dato 3 </td>
+                </tr>
+        </tbody>
+
+<!-- Pie de la tabla, resumen de la tabla -->
+        <tfoot>
+                <tr>
+                        <th class="header_total">Total</th>
+                        <!-- Para que ocupe dos celdas  -->
+                        <td class="dato_total" colspan="2">9</td>
+                </tr>
+        </tfoot>
+
+        table{
+        width: 100%;
+        /*Espacios entre datos */
+        border-spacing: 12px;
+        max-width: 500px;
+        margin: auto;
+        box-shadow: 0px 0px 25px #0003;
+}
+
+
+                        Audio y video 
+<video>: sirve para mostrar un video en la página.
+controls: muestra los controles (play, pausa, volumen, etc.).
+loop: hace que el video se repita automáticamente.
+autoplay: el video se reproduce solo al cargar la página.
+muted: el video empieza sin sonido (esto es importante porque muchos navegadores solo permiten autoplay si está en mute).
+src="video.mp4": ruta del archivo de video.
+
+<track>: define pistas de texto (subtítulos).
+src="caption.vtt": archivo de subtítulos (formato .vtt).
+kind="captions": indica que son subtítulos.
+srclang="es": idioma (español).
+label="Español (Latinoamérica)": nombre que verá el usuario.
+default: hace que esos subtítulos estén activados por defecto.
+
+<track src="caption.vtt" default kind="captions" srclang="es" label="Español (Latinoamérica)">
+
+WEBVTT
+
+00:00:00.000 --> 00:00:03.000
+Hola, este es el primer subtítulo
+
+00:00:03.000 --> 00:00:06.000
+Este es el segundo subtítulo
+✔️ Extensión: .vtt
+
+captions
+Subtítulos completos (incluyen sonidos, música, etc.)
+Ej: [música sonando], [aplausos]
+👉 Usado para personas con discapacidad auditiva
+
+subtitles
+Solo traducción del diálogo (no incluye sonidos)
+👉 Ej: traducir de inglés a español
+
+descriptions
+Descripciones del video para personas con discapacidad visual
+👉 Ej: “El hombre entra corriendo a la habitación”
+
+<audio>: inserta un reproductor de audio
+src="audio.mp3": ruta del archivo de audio
+controls: muestra botones (play, pausa, volumen)
+<audio controls autoplay loop muted></audio>
+controls → muestra controles
+autoplay → se reproduce automáticamente
+loop → se repite al terminar
+muted → inicia sin sonido
+
+👉 Igual que en <video>, muchos navegadores bloquean autoplay si no está en muted.
+        <audio controls>
+    <source src="audio.mp3" type="audio/mpeg">
+    <source src="audio.ogg" type="audio/ogg">
+    Tu navegador no soporta audio
+</audio>
+
+                        Lazy loading
+loading="lazy"
+
+Esto sirve para optimizar:
+
+🚀 La página carga más rápido
+📉 Consume menos datos
+📱 Muy útil si tienes muchas imágenes
+
+👉 El navegador carga la imagen solo cuando haces scroll hacia ella
+
+                        html semantico
+<header> para la parte superior visible de una página o sección.
+
+La etiqueta <nav> se usa para definir una sección de navegación, es decir, un conjunto de enlaces para moverse por la página o el sitio.
+
+<main> = contenido principal de la página
+
+La etiqueta <section> se usa para dividir el contenido en partes o secciones temáticas dentro de una página.Una <section> debe tener un título (<h1> a <h6>)
+
+La etiqueta <aside> se usa para contenido secundario o complementario al contenido principal.
+
+La etiqueta <footer> se usa para definir el pie de página de una web o de una sección.
+
+                        Accesibilidad web 
+dom: es un objeto que contiene todas las propiedades de html
+Para ver que tanta Accesibilidad tiene mi web, inspeccionar-dos flechitas de arriba-lighthouse-analyze page load

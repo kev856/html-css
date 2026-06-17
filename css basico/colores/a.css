@@ -5,28 +5,31 @@
     /*rgba(255,255,0,0.8); se puede usar la página rgba picker*/
     /*Para colores hexadecimale, 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
     se escribe así #11aeff los se dividen de dos en dos, los dos primeros
-    son rojo, verde, azul igial que el rgb, se puede abreviar #a22 sería como
+    son rojo, verde, azul igual que el rgb, se puede abreviar #a22 sería como
     si se escribiera #aa2222, se puede colocar opacidad #a22a el último valor
     es la opacidad que va de 0 a la f*/
     /*Se puede usar hsl(180, 100%, 50%); color; saturación y luz*/
     margin: 20px;
 }
 
-/* | Color       | RGB                  |
-| ----------- | -------------------- |
-| Negro       | `rgb(0, 0, 0)`       |
-| Blanco      | `rgb(255, 255, 255)` |
-| Rojo        | `rgb(255, 0, 0)`     |
-| Verde       | `rgb(0, 255, 0)`     |
-| Azul        | `rgb(0, 0, 255)`     |
-| Amarillo    | `rgb(255, 255, 0)`   |
-| Cian        | `rgb(0, 255, 255)`   |
-| Magenta     | `rgb(255, 0, 255)`   |
-| Gris claro  | `rgb(200, 200, 200)` |
-| Gris medio  | `rgb(128, 128, 128)` |
-| Gris oscuro | `rgb(50, 50, 50)`    |
-| Naranja     | `rgb(255, 165, 0)`   |
-| Rosado      | `rgb(255, 192, 203)` |
-| Violeta     | `rgb(128, 0, 128)`   |
-| Marrón      | `rgb(139, 69, 19)`   |
+/* Negro — #000
+Blanco — #FFF
+Rojo — #F00
+Verde — #0F0
+Azul — #00F
+Amarillo — #FF0
+Cian — #0FF
+Magenta — #F0F
+Gris — #999
+Gris oscuro — #333
+Gris claro — #CCC
+Naranja — #F80
+Rosa — #F9C
+Morado — #808
+Verde lima — #8F0
+Azul cielo — #8DF
+Turquesa — #4CC
+Dorado — #FC0
+Marrón — #840
+Beige — #FEC
  */

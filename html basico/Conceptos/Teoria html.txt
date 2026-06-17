@@ -1,0 +1,34 @@
+                                    Estructura de una etiqueta
+¿Qué es la semántica en html?
+-En HTML, la semántica significa usar las etiquetas que describen correctamente el contenido de una página web.
+
+-Es decir, no solo poner etiquetas para que se vea bien, sino para que expliquen qué es cada parte del contenido.
+
+¿Para qué es importante la semántica?
+-Para facilitar la lectura del código y mejorar el SEO
+
+¿Qué es el SEO?
+-El SEO (Search Engine Optimization) significa optimización para motores de búsqueda.
+
+Es el conjunto de técnicas para que una página web aparezca más arriba en los resultados de buscadores como Google, Bing o Yahoo.
+
+<etiqueta>contenido</etiqueta>
+
+-------------------------------------------------------------------------------------------------------------------------
+                                    Enlaces
+-Para colocar un enlace externo hay que escribir https://
+-El atributo target se usa en HTML para indicar dónde se abrirá un enlace cuando alguien haga clic, el valor por defecto es _self y para que se abra en otra pestaña el valor es _blank
+-Se puede colocar el atributo title en las etiquetas para que cuando se pase el mouse por encima, muestre un texto que escribamos, normamlmente se coloca en las imagenes, enlaces, formularios y botones.
+
+                                    Imágenes
+-Se usa el atributo alt para colocar una descripción de la imágen para cuando no cargues
+
+
+                                    formularios
+Tipos de input mas usados
+-text, email, password, checkbox, radio, file, date y submit
+Atributos de input
+-name: Es el nombre que se le asigna al input para poder identificarlo en los servidores
+-required: Obliga al usuario a completar ese campo para poder enviar el formulario
+-placeholder 
+-minlength: Mínimo de cáracteres

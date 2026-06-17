@@ -1,0 +1,9 @@
+/* Por si el contenido sobresale del contenedor */
+.box{
+    overflow: auto;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overflow-y: hidden;
+    overflow: clip;
+}

@@ -1,0 +1,137 @@
+                            SELECTORES
+-<span><li>dslkjfds</li></span> Esto está mal hecho, porque li va dentro de las listas, no puede ir dentro del span
+
+-Los programadores suelen poner nombres que describan lo que es el elemento en las clases, porque cuando el proyecto crece se vuelve más fácil entender el código.
+
+-Solo se puede haber el mismo id 1 sola vez por página web
+
+
+
+
+
+                          PROPIEDADES DE FUENTE Y TEXTO
+Color: red;
+
+Font-family: georgia, sans-serif, 'lucida sans':
+
+font-weight: 100; el ancho de las tipografias van de 100 en 100 hasta 900. No todas las tipografias tienen todos los anchos, eso depende de las que le agregue el creador de la tipografia. bold es como escribir 700 y bolder hace que el grueso de la tipografia que viene por defecto sea un escalon mas grueso.
+
+font-style: normal; por defecto, italic (cursiva), oblique (no tan cursiva)
+
+text-align: left; right, center, justify, start, end
+
+text-decoration: underline; overline; line-trough; se pueden colocar una al lado de otra y se colocarán los subrayados al mismo tiempo
+
+line-height: 1.5; normal es por defecto
+
+letter-spacing:3px;
+
+text-transform: uppercase; lowercase; capitalize;
+
+
+
+                            TIPOGRAFÍAS EXTERNAS
+
+Ir a google fonts, elegir una tipografia, copiar el link que te da la tipografia y pegarlo en el head.
+
+Ir a google fonts, elegir una tipografia, decargarla, extraerla, se hace un archivo que se llame fonts.css, se escribe esto: @font-face{
+  font-family: "Montserrat";(Nombre de la tipografia)
+  src: url("fonts/Montserrat-regular.ttf");(Ruta de la tipografia) format("truetype");(El formato que se escribe depende de la extensión que tenga la tipografia)
+}
+
+
+
+
+                                  Box model
+width, height, padding, margin, border width, border radius, box sizing: border-box, content-box
+
+                                  Padding y margin
+padding: 10px; Se le da padding en todas las direcciones
+padding: 10px 0 40px 20px; (Esto le da padding 10px a top y lo demás va en sentido de las agujas del reloj)
+
+padding: 20px 30px; (Vertical y horizontal)
+
+**Se le puede dar dos o mas clases a un elemento solo se deja un espacio entre clases y se escribe el nombre de la clase
+**Si hay dos elementos con margin, y esos margin se chocan, no se suman, simplemente se queda el margin mas grande
+**El body tiene un margin por defecto
+
+                              Bordes|
+ border: 3px solid black;(width, style, color) si no están estas tres propiedades, no se verá el border
+ border-top y las demás direcciones
+ border-radius: 4px;
+ border-radius: 3px 4px;(El primer valor es arriba a la izquierda y abajo a la derecha el segundo son los dos que quedan osea en diagonal)
+ border-radius: 10px 50px 0 5px;(arriba a la izquierda y sigue en sentido horario)
+border: none;
+
+                          box-zising
+¿Qué es box-sizing?
+-
+
+
+                              Colores
+rgb(red green blue, son los colores primarios de la luz)
+rgba(la a es de alpah, osea la capa de transparencia)
+Fondo claro, texto oscuro; fondo oscuro, texto claro.
+
+
+                            Unidades de medida
+¿Cómo colocar el word wrap siempre?
+-
+¿Qué es un em?
+-Vale los mismo que el font-size del elemento padre
+Si el padre tiene 2px y se coloca 1em, el valor será el mismo, si se coloca 2em medirá 4px, si el elemento padre no tiene definido el font-size, em buscará el siguiente elemento contenedor, si no encuentra ninguno, colocará el que trae el navegador por defecto que son 16px
+
+Y el rem?
+-En ves de ir al elemento padre, va al elemento raiz, el cual es html
+
+vh=viewport height
+vw=viewpot width
+height: 100vh; ocupa todo el alto de la ventana, 50vh es la mitad
+widht: 100vw; ocupa todo el ancho de la ventana, 50vw es la mitad
+
+
+                          FONDOS   
+background-image: url("");
+background-size:auto; por defecto
+----------------100%; Hace que entre por lo menos en ancho la imagen
+----------------80px;
+----------------contain; Obliga a la imagen a adaptarse, que entre almenos una vez
+----------------cover; Hace que la imagen esté completa sin importar la resolución, aunque la imágen se recorte
+background-position:center;
+----------------------right;
+---------------------left;
+--------------------bottom;
+--------------------top;
+------------------- 100px 200px; derecha, abajo y se le puede dar valores negativos
+background-repeat:no-repeat;
+ -----------------repeat-x;
+ -----------------repeat-y;
+ background-attachment:fixed; La imagen se mueve al hacer scroll
+background: url("") top / cover fixed #6fa
+
+                            Gradientes
+¿En qué normalmente se usan los gradientes?
+-
+background: linear-gradient( #000, transparent);
+---------------------------(to right,------,---);
+-----------------------------to left
+---------------------------- to bottom
+----------------------------to top
+----------------------------(to top, transparent, #000a, transparent)
+background: radial-gradient(green, #000a)
+
+                          SOMBRAS
+ box-shadow:0 0 40px 0 #0007; (dirección horizontal de la sombra, vertical, desenfoque, extensión) en las direcciones se puede dar valores negativos
+
+
+Para que siempre esté el word wrap activado se hace ctrl+shift+p y se elige open user settings (JSON)
+{
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "editor.fontSize": 22,
+  "editor.minimap.enabled": false,
+  "window.zoomLevel": 1,
+  "breadcrumbs.enabled": false,
+  "editor.wordWrap": "on",
+  "editor.linkedEditing": true,
+  "window.openFilesInNewWindow": "on"
+}

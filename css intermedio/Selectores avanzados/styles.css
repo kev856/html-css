@@ -1,0 +1,39 @@
+img[src="dalto.png"]{
+    width: 100%;
+}
+
+img[src$="png"]{
+    width: 100%;
+}
+
+img[src^="dalto"]{
+    width: 100%;
+}
+
+ul li{
+    color: red;
+}
+/* strong está dentro de un li, aunque no es hijo directo de ul, sigue estando adentro */
+ul strong{
+    color: red;
+}
+
+li > em {
+    color: red;
+}
+
+h1 + p{
+    color: blue;
+}
+/* Se le puede dar cuantos elementos querramos */
+h1 + p + p{
+    color: blue;
+}
+
+h1 ~ p{
+    color: blue;
+}
+
+ul > li > a h1 + p{
+    color: blue;
+}

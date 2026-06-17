@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    color: #fff;
+    position: relative;
+}
+/* top tiene mas prioridad que bottom y left mas que right */
+.box--blue{
+    background-color: blue;
+    top: -20px;
+    left: 30px;
+    /* El z-index se coloca normalmente se coloca de 10 en 10 o de 20 en 20 */
+    z-index: 10;
+}
+
+/* El position absolute toma de referencia a la etiqueta html, si queremos tomar el punto de referencia al contenedor, se le coloca al contenedor position: relative*/
+/* Para centrar un elemento se usa position absolute top 0 bottom 0 left 0 right 0 margin auto, aunque es mejor centrar con flexbox */

@@ -1,0 +1,11 @@
+input, textarea{
+    font-family: inherit;
+}
+
+a{
+    color: inherit;
+}
+
+h1{
+    color: black !important;
+}

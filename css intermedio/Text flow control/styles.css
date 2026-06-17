@@ -1,0 +1,19 @@
+.box{
+    white-space: nowrap;
+    white-space: pre;
+    white-space: pre-wrap;
+}
+/* Se usan esas tres para colocar puntos suspensivos si el contenido se desborda*/
+.box{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/* Textos cortos */
+h1{
+    text-wrap: balance;
+}
+/* Textos largos */
+p{
+    text-wrap: pretty;
+}

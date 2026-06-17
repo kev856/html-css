@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+/* Es como absolute, solo que es siempre al respecto de la ventana y se queda fijo en el lugar aunque se haga scroll */
+.box{
+    position: fixed;
+}
+/* Es como position relative, pero si se le coloca una positon, cuando la cumpla se queda fija */
+.box2{
+    position: sticky;
+}

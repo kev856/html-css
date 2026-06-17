@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div, body{
+    box-sizing: border-box;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Es mejor usar max y min widht, así se adapta */
+/* Min height, es mejor no usar height,a menos que sea en una situación muy específica */
+.bloque{
+    display: inline-block;
+    min-width: 200px;
+    background-color: #7bf;
+    margin: auto;
+    width: 100%;
+    /* Para que funcione el flex grow, hay que añadirle el flex-basis */
+    flex-grow: 1;
+    flex-basis: 0;
+    font-size: 12px;
+    padding: 10px;
+    margin: 4px;
+}

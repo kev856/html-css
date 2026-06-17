@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    /* Son las propiedades que vamos a transicionar con hover */
+    transition-property: background-color, color;
+    /* Cuanto va a tardar la transición */
+    transition-duration: 1s;
+    /* Cuanto tiempo va tardar en comenzar en hacer la transición */
+    transition-delay: 2s;
+    color: red;
+}
+
+.box:hover{
+    background-color: blue;
+    color: #fff;
+}

@@ -1,0 +1,16 @@
+img, video{
+    width: 400px;
+    height: 200px;
+    /* Por defecto */
+    object-fit: fill;
+    /* Hace que la  imagen al menos una vez*/
+    object-fit: contain;
+    /* Se adapta al contenedor */
+    object-fit: cover;
+    /* moverlo */
+    object-position: top;
+    /* Lo coloca en su resolución original*/
+    object-fit: none;
+    /* Elige entre contain y none, se queda con la más pequeña */
+    object-fit: scale-down;
+}

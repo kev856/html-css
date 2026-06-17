@@ -1,0 +1,49 @@
+h1{
+    color: #48e;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/* Cuando pasamos el mouse por encima de h1 */
+h1:hover{
+    background-color: #ccc;
+    color: #000;
+}
+
+/* Cuando se da click */
+h1:active{
+    background-color: #999;
+    color: #fff;
+}
+
+li:first-child{
+    color: #f00;
+}
+
+li:nth-child(4n){
+    color: #0f0;
+}
+/* Lo mismo que nchild, pero este no tiene en cuenta los los elementos que están por medio y son distintos  */
+li:nth-of-type(4n){
+    color: #0f0;
+}
+
+li:last-child{
+    color: #00f;
+}
+/* SELECCIONANDO LOS LI DENTRO DE ".LISTA" PERO QUE NO TENGAN LA CLASE "EXCLUIR"*/
+.lista li:not(.excluir){
+    color: red;
+}
+/* SELECCIONANDO EL DIV EN CASO DE ESTAR VACIO */
+div:empty{
+    border: none;
+}
+/* ENLACES NO VISITADOS */
+a:link{
+    color: red;
+}
+/* Enlaces visitados */
+a:visited{
+    color: green;
+}

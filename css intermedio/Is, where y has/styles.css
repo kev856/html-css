@@ -1,0 +1,27 @@
+.elemento1,
+.elemento2,
+.elemento3 {
+    color: red;
+}
+
+:is(.elemento1, .elemento2, .elemento){
+    color: blue;
+} 
+
+body :is(h1,h2,h3,h4,h5,h6)
+
+section:has(.elemento1){
+    background-color: #000;
+}
+
+ul:has(+div){
+    background-color: #000;
+}
+
+label:has(input:valid){
+    color: green;
+}
+
+label:has(input:invalid){
+    color: red;
+}

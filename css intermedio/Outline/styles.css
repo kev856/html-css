@@ -1,0 +1,15 @@
+.box{
+    outline: 3px solid blue;
+    outline-offset: 10px;
+}
+
+/* Quitar el outline del input y no dañar el seo */
+input:focus{
+    border-color: blue;
+    color: blue;
+    transition: outline .2s, outline-offset .2s;
+}
+/* Hay que colocar lo del input focus y esto */
+input:focus-visible{
+    outline: none;
+}

@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    direction: ltr;
+}
+
+.flex-item{
+    /* Si un item tiene padding, deja de ser flexible */
+    width: 150px;
+    height: 150px;
+    background-color: #911;
+    margin: 10px;
+}
+
+.flex-item:first-child{
+    background-color: #f77;
+}

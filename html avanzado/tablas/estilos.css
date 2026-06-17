@@ -13,6 +13,7 @@ td{
 
 table{
         width: 100%;
+        /*Espacios entre datos */
         border-spacing: 12px;
         max-width: 500px;
         margin: auto;

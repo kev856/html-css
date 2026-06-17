@@ -2,8 +2,7 @@ body{
         margin:0;
         font-family: sans-serif;
         color: #eee;
-        background-color: #222;
-        background: linear-gradient(to bottom,#333,#000);
+        background: linear-gradient(to bottom , #333, #000);
 }
 
 h2{
@@ -14,7 +13,7 @@ h2{
         font-weight: 100;
         font-size: 1,3em;
         padding: 10px;
-}
+} 
 
 form{
         background-color: transparent;

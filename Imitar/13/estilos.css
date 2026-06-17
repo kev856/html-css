@@ -1,0 +1,39 @@
+body{
+        background-color: #333;
+        color: #ddd;
+        font-family: sans-serif;
+
+}
+
+details{
+        background-color: transparent;
+        border: 1px solid #ddd;
+        padding: 9px;
+        font-size: 0.8em;
+        color: #aaa;
+}
+
+
+summary{
+    background-color: transparent;
+    padding: 9px;
+    font-size: 1em;
+    color: #eee;
+}
+/*Se puede dar color a summary por separado
+details{
+        background-color: #999;
+}
+
+summary{
+    background-color: blue;
+
+    details[open]{
+border:1px solid #ddd;
+font-weight: bold;
+    }
+}*/
+
+ul{
+        font-weight: 100;
+}

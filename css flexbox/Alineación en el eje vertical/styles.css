@@ -1,0 +1,18 @@
+.flexbox{
+    display: flex;
+    /* Alinear en el eje principal(main axis) */
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    /* Alinear en el eje cruzado cuando se tiene una línea */
+    align-items: stretch;
+    align-items: start;
+    align-items: center;
+    align-items: baseline;
+    /* Alinear en el eje cruzado múltiples líneas*/
+    align-content: start;
+    align-content: space-around;
+}

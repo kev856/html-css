@@ -1,0 +1,73 @@
+                            ENTENDIENDO LA WEB
+¿QUÉ ES WWW?
+
+WWW =World wide web
+La Web (World Wide Web o WWW)
+es un sistema global de información basado en hipertexto e hipermedios interconectados, accesibles a través de Internet mediante navegadores. Funciona utilizando protocolos como HTTP para enlazar documentos multimedia (texto, imágenes, video) alojados en servidores, permitiendo compartir y acceder a recursos mundialmente.
+Wide = ancho / amplio / extendido
+World = mundo
+World-wide (junto) = mundial / en todo el mundo
+O sea, el significado de “mundial” aparece cuando world + wide se combinan.
+Entonces:
+World wide = que se extiende por todo el mundo
+Web = red
+👉 World Wide Web = red que se extiende por todo el mundo.
+------------------------------------------------------------------
+
+SERVIDORES, URL Y PETICIONES    
+
+La computadora manda una petición al servidor a través de la url(Uniform Resource Locator, en español: Localizador Uniforme de Recursos), el servidor que aloja el archivo recibe la solicitud y decide que hacer con ella.
+
+*Una URL = la dirección exacta de algo en la web (una página, imagen, video, archivo, etc.).
+-------------------------------------------------------------------
+
+SISTEMAS INFORMATICOS
+
+La mayoría de los sistemas funcionan con el principio de solicitud-respuesta
+
+-------------------------------------------------------------------
+
+*Los videos se abren con reproductores de video, las imágenes con reproductores de imágenes y las páginas web con los navegadores
+------------------------------------------------------------------
+
+
+                    ENTENDIENDO HTML Y CSS
+                
+¿Qué es html?
+-Hypertext markup language(Lenguaje de marcado de hipertexto)
+-Html se usa para estructurar la página web
+-Se hacen elementos usando tags(etiquetas)
+ 
+¿Qué es css?
+-Cascading style sheets(Hojas de estilo en cascada)
+-Css se utiliza para darle la apariencia que querramos a la página web
+-Así se compone la estructura de css:
+.cubo{
+    color:azul;
+    tamaño:16px;
+}
+
+*.cubo{} es un selector, hace referencia al elemento html que le quieres modificar sus propiedaes.
+*Lo que está dendro de las llaves se llama bloque de declaraciones, esto tiene todas las propiedades que queremos modificar y cual va a hacer el valor que queremos que tengan.
+---------------------------------------------------------------------
+
+                    Editor de código
+Vsc está desarrollado por microsoft
+
+
+
+
+
+
+
+
+
+
+
+-Se escribe index porque ese es el archivo que buscan los servidores
+-Para que el texto en vs code se adapte a la resolución, escribir: ctrl + shift + p y allí escribir word wrap
+- los h1 a h6 son encabezados
+
+Sitio web:
+Conjuntos de página web
+

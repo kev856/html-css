@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+div{
+    background-color: #999;
+}
+
+/* El padding y el margin funcionan distinto con elemento en línea, solo funcionan horizontalmente, para resolverlo se usa display:inline-block */
+a{
+    background-color: red;
+    color: #fff;
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+    opacity: 0.6;
+    display: block;
+}
