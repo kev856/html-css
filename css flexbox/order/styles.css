@@ -1,15 +1,31 @@
 /* Order es para cambiar el orden de los flex items, solo lo hace visualmente, el que tenga el número menor, va primero, se puede dar números negativos */
-.flex-item:last-child{
-    background-color: #000;
-    order: 2;
+body{
+    margin: 0;
 }
 
-.flex-item{
-    background-color: #800;
-    order: 3;
+.container{
+    display: flex;
 }
 
 .flex-item:first-child{
+    width: 100px;
+    height: 100px;
     background-color: #f77;
+    /* order: 1; */
+}
+
+
+.flex-item:nth-child(2){
+    width: 100px;
+    height: 100px;
+    background-color: #800;
     order: 1;
+}
+
+
+.flex-item:last-child{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    /* order: 2; */
 }
